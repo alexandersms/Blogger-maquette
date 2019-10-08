@@ -19,6 +19,7 @@ a {
 
 p {
   color: #7f8d9c;
+  line-height: 1.8;
 }
 
 .container {
@@ -62,3 +63,46 @@ header {
 }
 
 /* ------------ POST -------------*/
+.post-container {
+  margin-top: 110px;
+}
+
+.post-container h2,
+.post-container p {
+  text-align: center;
+}
+
+.comments-container h2 {
+  text-align: left;
+}
+
+.comments-title {
+  text-align: left;
+  font-size: 20px;
+  margin: 50px 0 30px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.comment h3,
+.comment p {
+  text-align: left;
+  margin-left: 22px;
+}
+
+.comment h3 {
+  color: #7f8d9c;
+  font-size: 15px;
+}
+
+.comment p {
+  font-size: 14px;
+}
+
+.comment img {
+  width: 85px;
+}
